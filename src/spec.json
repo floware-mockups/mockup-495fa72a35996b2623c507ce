@@ -1,0 +1,220 @@
+{
+  "title": "Monitoraggio dei consumi energetici",
+  "description": "Prototipo per consultare i consumi mensili degli edifici pubblici inventati, confrontare periodi e registrare nuove rilevazioni. Il riepilogo mensile è rappresentato con valori tabellari.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Riepilogo dei consumi e andamento mensile aggregato degli edifici gestiti da Aurora Civica.",
+      "metrics": [
+        {
+          "label": "Consumo del mese",
+          "value": "18.420 kWh"
+        },
+        {
+          "label": "Variazione mensile",
+          "value": "−4,2%"
+        },
+        {
+          "label": "Edifici monitorati",
+          "value": "6"
+        },
+        {
+          "label": "Rilevazioni aggiornate",
+          "value": "28"
+        }
+      ],
+      "columns": [
+        "Mese",
+        "Consumo totale (kWh)",
+        "Variazione (%)"
+      ],
+      "rows": [
+        [
+          "Gennaio",
+          "22.840",
+          "—"
+        ],
+        [
+          "Febbraio",
+          "21.390",
+          "−6,4"
+        ],
+        [
+          "Marzo",
+          "20.780",
+          "−2,9"
+        ],
+        [
+          "Aprile",
+          "19.240",
+          "−7,4"
+        ],
+        [
+          "Maggio",
+          "18.960",
+          "−1,5"
+        ],
+        [
+          "Giugno",
+          "18.420",
+          "−2,8"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "edifici",
+      "title": "Edifici",
+      "description": "Elenco filtrabile degli edifici inclusi nel monitoraggio dei consumi.",
+      "metrics": [
+        {
+          "label": "Edifici registrati",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Organizzazione",
+        "Zona",
+        "Consumo mensile (kWh)",
+        "Classe energetica"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Aurora Civica",
+          "Nord",
+          "3.840",
+          "B"
+        ],
+        [
+          "Centro Vela",
+          "Aurora Civica",
+          "Est",
+          "2.960",
+          "C"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Aurora Civica",
+          "Centro",
+          "2.410",
+          "B"
+        ],
+        [
+          "Scuola Quercia",
+          "Aurora Civica",
+          "Ovest",
+          "3.180",
+          "A"
+        ],
+        [
+          "Archivio Brina",
+          "Aurora Civica",
+          "Sud",
+          "2.770",
+          "C"
+        ],
+        [
+          "Casa Riva",
+          "Aurora Civica",
+          "Centro",
+          "3.260",
+          "B"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Organizzazione",
+        "Zona",
+        "Consumo mensile (kWh)",
+        "Classe energetica"
+      ]
+    },
+    {
+      "id": "rilevazioni",
+      "title": "Rilevazioni mensili",
+      "description": "Consulta e filtra le rilevazioni per edificio, periodo e fonte; registra nuovi consumi mensili.",
+      "metrics": [
+        {
+          "label": "Rilevazioni nel periodo",
+          "value": "28"
+        }
+      ],
+      "columns": [
+        "Edificio",
+        "Mese",
+        "Consumo (kWh)",
+        "Fonte rilevazione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Palazzo Lumo",
+          "Giugno",
+          "3.840",
+          "Contatore digitale",
+          "Verificata"
+        ],
+        [
+          "Centro Vela",
+          "Giugno",
+          "2.960",
+          "Contatore digitale",
+          "Verificata"
+        ],
+        [
+          "Biblioteca Nubi",
+          "Giugno",
+          "2.410",
+          "Lettura mensile",
+          "Verificata"
+        ],
+        [
+          "Scuola Quercia",
+          "Giugno",
+          "3.180",
+          "Contatore digitale",
+          "Verificata"
+        ],
+        [
+          "Archivio Brina",
+          "Giugno",
+          "2.770",
+          "Lettura mensile",
+          "Da verificare"
+        ],
+        [
+          "Casa Riva",
+          "Giugno",
+          "3.260",
+          "Contatore digitale",
+          "Verificata"
+        ],
+        [
+          "Palazzo Lumo",
+          "Maggio",
+          "3.920",
+          "Contatore digitale",
+          "Verificata"
+        ],
+        [
+          "Centro Vela",
+          "Maggio",
+          "3.080",
+          "Lettura mensile",
+          "Verificata"
+        ]
+      ],
+      "form": [
+        "Edificio",
+        "Mese",
+        "Consumo (kWh)",
+        "Fonte rilevazione",
+        "Stato"
+      ]
+    }
+  ]
+}
